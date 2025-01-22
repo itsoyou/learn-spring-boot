@@ -24,7 +24,6 @@ public class WelcomeController {
 
 	private String getLoggedinusername() {
 		Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-
 		return authentication.getName();
 	}
 
